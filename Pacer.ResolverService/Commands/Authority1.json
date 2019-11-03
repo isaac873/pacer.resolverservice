@@ -1,0 +1,46 @@
+[
+  {
+    "command": "setup",
+    "groupId": "d5eb42ec-1d55-4dd4-b34e-4fcf1d1e2406",
+    "id": 1,
+    "target": "ev3",
+    "params": {
+      "x": 100,
+      "y": 100
+    },
+    "next_available": true,
+    "status_update_url": "/UpdateCommandStatus/{id}/{status}"
+  },
+  {
+    "command": "reset",
+    "groupId": "d5eb42ec-1d55-4dd4-b34e-4fcf1d1e2406",
+    "id": 2,
+    "target": "ev3",
+    "next_available": true,
+    "status_update_url": "/UpdateCommandStatus/{id}/{status}"
+  },
+  {
+    "command": "move",
+    "groupId": "d5eb42ec-1d55-4dd4-b34e-4fcf1d1e2406",
+    "id": 3,
+    "target": "ev3",
+    "params": {
+      "x": 100,
+      "y": 100
+    },
+    "next_available": true,
+    "status_update_url": "/UpdateCommandStatus/{id}/{status}"
+  },
+  {
+    "command": "touch",
+    "groupId": "d5eb42ec-1d55-4dd4-b34e-4fcf1d1e2406",
+    "id": 4,
+    "target": "ev3",
+    "params": {
+      "x": 100,
+      "y": 100
+    },
+    "next_available": false,
+    "status_update_url": "/UpdateCommandStatus/{id}/{status}"
+  }
+]
